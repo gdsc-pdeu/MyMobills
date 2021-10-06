@@ -21,13 +21,14 @@
         android:layout_width="match_parent"
         android:layout_height="33dp"
         android:queryHint="Name,Id.."
-        android:background="@color/white"
+        android:background="@color/backgroundcolor"
         app:layout_constraintTop_toTopOf="parent" />
 </LinearLayout>
 <androidx.recyclerview.widget.RecyclerView
     android:id="@+id/rv_all_invoice"
     android:layout_width="0dp"
     android:layout_height="0dp"
+    android:background="@color/backgroundcolor"
     android:layout_marginBottom="?attr/actionBarSize"
     tools:listitem="@layout/sample_item_layout"
     app:layout_constraintStart_toStartOf="parent"

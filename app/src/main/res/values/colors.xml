@@ -12,4 +12,7 @@
     <color name="action_bar">#493886</color>
     <color name="grey">#C1BCD3</color>
     <color name="xml_backgroun">#F2F2F2</color>
+
+    <color name="backgroundcolor">#ffffff</color>
+
 </resources>
